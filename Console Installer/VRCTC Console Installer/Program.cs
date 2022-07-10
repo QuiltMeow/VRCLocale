@@ -25,7 +25,6 @@ namespace VRCTC_Console_Installer
             writePrefix($"| {new string(' ', 15)}VRCLocale 繁體中文化{new string(' ', 21)} |");
             writePrefix($"| {separator}注意 : 安裝前請先關閉 VRChat，以免造成存取被拒{separator} |");
             writePrefix(line);
-            Console.WriteLine();
         }
 
         private static void writeStepFinish()
@@ -69,6 +68,11 @@ namespace VRCTC_Console_Installer
 
             Console.Title = "VRCLocale 繁體中文化安裝工具";
             writeTitle();
+            pause();
+            Console.Clear();
+
+            writeTitle();
+            Console.WriteLine();
             Console.WriteLine("[初始化] 搜尋 VRChat 安裝位置");
 
             try
