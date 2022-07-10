@@ -1,9 +1,9 @@
-//
-// VRChat 繁體中文語言翻譯 : Murder 系列
-// 翻譯、維護: XoF_eLtTiL, Kamiya
-// 更新日期 2022/2/11
-// License under Creative Commons BY-NC-SA
-//
+;
+; VRChat 繁體中文語言翻譯 : Murder 系列
+; 翻譯、維護 : XoF_eLtTiL, Kamiya
+; 更新日期 2022 / 2 / 11
+; License under Creative Commons BY - NC - SA
+;
 
 sr:"MURDER (\d+)"=殺手$1
 HOW TO PLAY=遊戲玩法
@@ -52,7 +52,6 @@ World Created By:=這個世界的創造主：
 
 10+ Players Required for Duos=需要10名玩家以上來組隊
 Jar=Jar
-
 
 Shoot the Murderer=找到殺手並槍殺掉
 DETECTIVE=偵探

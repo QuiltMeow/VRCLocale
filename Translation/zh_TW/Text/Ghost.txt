@@ -1,10 +1,9 @@
-//
-// VRChat 繁體中文語言翻譯 : Ghost 
-// 翻譯、維護: XoF_eLtTiL, Kamiya
-// 更新日期 2022/2/11
-// License under Creative Commons BY-NC-SA
-//
-
+;
+; VRChat 繁體中文語言翻譯 : Ghost 
+; 翻譯、維護 : XoF_eLtTiL, Kamiya
+; 更新日期 2022 / 2 / 11
+; License under Creative Commons BY - NC - SA
+;
 
 Keys & Lockers:=鑰匙和儲藏櫃：
 Weapon Workshop:=武器工作站：

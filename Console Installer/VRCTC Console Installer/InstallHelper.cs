@@ -7,36 +7,14 @@ using System.IO;
 using System.IO.Compression;
 using System.Linq;
 using System.Net;
-using System.Windows;
 
-namespace VRCTC_Installer
+namespace VRCTC_Console_Installer
 {
     public class InstallHelper
     {
-        public static InstallHelper instance
-        {
-            get;
-            private set;
-        }
-
-        static InstallHelper()
-        {
-            try
-            {
-                instance = new InstallHelper();
-            }
-            catch (Exception ex)
-            {
-                const int FAIL = 1;
-                MessageBox.Show($"初始化程式時發生例外狀況 : {ex.Message}", "錯誤", MessageBoxButton.OK, MessageBoxImage.Error);
-                Environment.Exit(FAIL);
-            }
-        }
-
         private const string APP_NAME = "VRCTCInstaller";
-        private const string AUTHOR = "kamiya10";
-        private const string PROJECT = "vrclocale";
         public const string MELON_LOADER_URL = "https://github.com/LavaGang/MelonLoader/releases/latest/download/MelonLoader.x64.zip";
+        public const string TC_URL = "https://github.com/kamiya10/vrclocale/releases/latest/download/Updater.zip";
         private readonly string tempPath;
 
         public string VRChatPath
@@ -55,12 +33,6 @@ namespace VRCTC_Installer
                 }
                 return Path.GetDirectoryName(VRChatPath);
             }
-        }
-
-        public string installVersion
-        {
-            get;
-            set;
         }
 
         public InstallHelper()
@@ -149,21 +121,6 @@ namespace VRCTC_Installer
             return Path.Combine(libraryPath, STEAM_APP_FOLDER, "common", "VRChat", "VRChat.exe");
         }
 
-        public static IReadOnlyList<Release> fetchRelease()
-        {
-            GitHubClient client = new GitHubClient(new ProductHeaderValue(APP_NAME));
-            return client.Repository.Release.GetAll(AUTHOR, PROJECT).Result;
-        }
-
-        public string getTCURL()
-        {
-            if (installVersion == null)
-            {
-                throw new InvalidOperationException("尚未指定版本號碼");
-            }
-            return $"https://github.com/{AUTHOR}/{PROJECT}/releases/download/{installVersion}/Updater.zip";
-        }
-
         public static string getLatestAutoTranslatorURL()
         {
             const string AUTO_TRANSLATOR_PROJECT = "XUnity.AutoTranslator";
@@ -207,17 +164,6 @@ namespace VRCTC_Installer
             {
                 client.DownloadFile(url, path);
                 return path;
-            }
-        }
-
-        public string readCurrentVersion()
-        {
-            using (FileStream fs = new FileStream(Path.Combine(VRChatDirectory, "AutoTranslator", "Translation", "zh", "version.txt"), System.IO.FileMode.Open, FileAccess.Read))
-            {
-                using (StreamReader sr = new StreamReader(fs))
-                {
-                    return sr.ReadLine();
-                }
             }
         }
 

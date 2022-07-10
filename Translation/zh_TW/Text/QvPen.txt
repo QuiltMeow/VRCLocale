@@ -1,9 +1,9 @@
-﻿//
-// VRChat 繁體中文語言翻譯: QvPen 追加
-// 翻譯、維護: Kamiya
-// 更新日期 2021/10/25
-// License under Creative Commons BY-NC-SA
-//
+﻿;
+; VRChat 繁體中文語言翻譯 : QvPen 追加
+; 翻譯、維護 : Kamiya
+; 更新日期 2021 / 10 / 25
+; License under Creative Commons BY - NC - SA
+;
 
 All Reset\n(Master)=全部重置\n(房主)
 All Clear\n(Local)=全部清除\n(本地)

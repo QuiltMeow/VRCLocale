@@ -1,9 +1,9 @@
-//
-// VRChat 繁體中文語言翻譯: Prison Escape
-// 翻譯、維護: XoF_eLtTiL, Kamiya
-// 更新日期 2022/3/16
-// License under Creative Commons BY-NC-SA
-//
+;
+; VRChat 繁體中文語言翻譯 : Prison Escape
+; 翻譯、維護 : XoF_eLtTiL, Kamiya
+; 更新日期 2022 / 3 / 16
+; License under Creative Commons BY - NC - SA
+;
 
 Use  (Keycard  Required)=使用(需要鑰匙卡)
 WARNING=警告

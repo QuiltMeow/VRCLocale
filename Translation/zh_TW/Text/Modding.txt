@@ -1,11 +1,11 @@
-//
-// VRChat 繁體中文語言翻譯: Melon模組 追加
-// 翻譯、維護: XoF eLtTiL
-// 更新日期 2021/11/15
-// License under Creative Commons BY-NC-SA
-//
+;
+; VRChat 繁體中文語言翻譯 : Melon 模組 追加
+; 翻譯、維護 : XoF_eLtTiL
+; 更新日期 2021 / 11 / 15
+; License under Creative Commons BY - NC - SA
+;
 
-////Melon主體////
+; Melon 主體
 Enable=啟用
 Reset\nsettings=重設設定
 Are you sure you want to reset all settings in the following category:=你確定你想重設目前所選的設定嗎:
@@ -14,8 +14,8 @@ Also reset invisible settings=重設隱藏的設定
 Mod Settings=顯示插件設定
 Hide Settings=隱藏插件設定
 
-////ScreenShot Manager////
-//設定部分
+; ScreenShot Manager
+; 設定部分
 Screenshot Directory=圖片資料夾
 Image Metadata=圖片後設資料
 Enable File Organization=啟用圖片自動分類
@@ -37,7 +37,7 @@ Move Gallery Button=前往相簿按鈕
 Use File Creation Time=使用檔案建立時間
 Rotation Buttons=圖片旋轉按鈕
 
-//QM選單
+; QM 選單
 ScreenshotManager can sort and manage your photos (customizable)=ScreenshotManager 可以分類和管理你的圖片(客製化)
 Open Photos Folder=開啟\n圖片資料夾
 Open the folder where photos are saved=打開你圖片所在的資料夾
@@ -139,7 +139,7 @@ Switch to Tab Button=切換成分頁按鈕
 Press to go back=點此返回
 sr:"^Version (.+)$"=版本 $1\n中文化By XoF_eLtTiL
 
-\\ IKTweak
+; IKTweak
 Use Pitch-Yaw Shoulders=使用肩膀修正
 Animations mode in FBT=全身追蹤的動畫模式
 Play all animations=播放所有動畫
@@ -189,7 +189,7 @@ Angles:角度:
 High precision=微調
 More IKTweaks...=更多IKTweaks...
 
-\\Advanced Invitres
+; Advanced Invitres
 Delete Notification After Successful Use=成功使用邀請後自動刪除通知
 Blacklist System=黑名單系統
 Whitelist System=白名單系統
@@ -200,7 +200,6 @@ Invite Sound=邀請音效
 Invite-Request Sound=邀請請求音效
 AdvancedInvites Reload Sounds=AdvancedInvites\n音效重新載入
 
-\\
 Auto Follow Invite Predownloads=自動下載邀請的世界
 Auto Join World Predownloads=自動加入下載完成的世界
 Auto Join Friend Predownloads=自動加入下載完成世界(好友)
@@ -213,7 +212,7 @@ Accept invites using AdvancedInvites popup=使用 AdvancedInvites 彈出視窗�
 Predownload=預先下載
 Downloaded=已下載
 
-\\MultiplyaerDynamicBones
+; MultiplyaerDynamicBones
 Enabled by default=預設啟用多人動態骨骼
 Optimize bones, don't enable interaction [QM]=優化動態骨骼, 但不啟用互動功能 [QM]
 Only I can interact with other bones [QM]=只有我能互動其他人的動態骨骼 [QM]
@@ -253,7 +252,7 @@ MoarBones: I hear you like bones~(Makes all bones Dynamic)=MoarBones:我聽說�
 MoarBones: Performance Limit=MoarBones:效能限制
 MoarBones: Don't effect local avatar=MoarBones:不套用在本地角色(SDK Test)
 
-\\QM
+; QM
 Press to disable Dynamic Bones mod=點擊關閉\n多人動骨模組
 Press to enable Dynamic Bones mod=點擊開啟\n多人動骨模組
 Optimize bones, don't enable interaction=優化動態骨骼, 但不啟用互動功能
@@ -275,8 +274,7 @@ Reset 'DisableAllDB' on join=加入時重設\n"關閉所有動骨"選項
 <-- These can cause buggy interaction=<--\n這可能會\n造成奇怪的\n互動回饋
 MDB Settings=動態骨骼\n互動設定
 
-\\Avatar Limbs Grabber
-
+; Avatar Limbs Grabber
 Maximal distance to limbs=對四肢的最大距離
 Allow friends to manipulate you=允許好友們對你操作
 Allow pull=允許抓取
@@ -288,7 +286,7 @@ Apply velocity on pull=使用抓取速度
 Velocity multiplier=速度倍數
 Use average velocity=使用平均值數度
 
-\\Join notifier
+; Join notifier
 Blink HUD icon on join=顯示玩家加入圖標
 Play sound on join=使用玩家加入音效
 Show joined names=顯示加入的玩家名字
@@ -308,7 +306,7 @@ Show friend join/leave regardless of instance type=顯示好友的加入/離開�
 Hide join/leave of blocked users=隱藏已封鎖的玩家加入/離開通知
 Log user join/leave to console=記錄玩家加入/離開到控制台
 
-//Lag Free Screenshots
+; Lag Free Screenshots
 Enabled=啟用
 Screaenshot format=圖片格式
 JPEG quality (0-100)=Jpeg圖片質量(0-100)

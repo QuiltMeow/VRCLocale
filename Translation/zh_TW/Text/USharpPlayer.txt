@@ -1,9 +1,9 @@
-﻿//
-// VRChat 繁體中文語言翻譯: USharoPlayer 追加
-// 翻譯、維護: Kamiya , XoF eLtTiL
-// 更新日期 2021/10/25
-// License under Creative Commons BY-NC-SA
-//
+﻿;
+; VRChat 繁體中文語言翻譯 : USharoPlayer 追加
+; 翻譯、維護 : Kamiya, XoF_eLtTiL
+; 更新日期 2021 / 10 / 25
+; License under Creative Commons BY - NC - SA
+;
 
 Enter Video URL... (anyone)=輸入影片網址... (任何人)
 Enter Video URL...=輸入影片網址...

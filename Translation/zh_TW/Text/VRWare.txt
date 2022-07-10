@@ -1,9 +1,10 @@
-﻿//
-// VRChat 繁體中文語言翻譯: VRWare 追加
-// 翻譯、維護: Kamiya , XoF eLtTiL
-// 更新日期 2021/11/6
-// License under Creative Commons BY-NC-SA
-//
+﻿;
+; VRChat 繁體中文語言翻譯 : VRWare 追加
+; 翻譯、維護 : Kamiya, XoF_eLtTiL
+; 更新日期 2021 / 11 / 6
+; License under Creative Commons BY - NC - SA
+;
+
 created by Haï=由 Haï 製作
 Select language!=選擇語言！
 Loading...=讀取中...
@@ -84,4 +85,3 @@ Don't fall!=別掉下去!
 sr:"^Headshot (.+)\!$"=爆頭 $1!
 Race!=賽跑!
 Shoot the targets!=射中全部目標!
-

@@ -1,10 +1,9 @@
-//
-// VRChat 繁體中文語言翻譯: VRCBilliards 追加
-// 翻譯、維護: XoF eLtTiL
-// 更新日期 2021/11/15
-// License under Creative Commons BY-NC-SA
-//
-
+;
+; VRChat 繁體中文語言翻譯 : VRCBilliards 追加
+; 翻譯、維護 : XoF eLtTiL
+; 更新日期 2021 / 11 / 15
+; License under Creative Commons BY - NC - SA
+;
 
 Game Modes=遊戲模式
 American 8-Ball=美式 8號球
